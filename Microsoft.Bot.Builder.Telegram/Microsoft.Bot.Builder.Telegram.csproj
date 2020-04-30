@@ -2,6 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/itsokto/Microsoft.Bot.Builder.Telegram</RepositoryUrl>
+        <Version>0.1.0</Version>
     </PropertyGroup>
 
     <ItemGroup>

@@ -1,4 +1,4 @@
-name: .NET Core
+name: CI
 
 on:
   push:
@@ -27,5 +27,5 @@ jobs:
     - name: Pack
       run: dotnet pack -c Release -o out
     - name: Push
-      run: dotnet nuget push ./out/*.nupkg -k ${{ secrets.GITHUB_TOKEN }}
+      run: dotnet nuget push ./out/*.nupkg
       
